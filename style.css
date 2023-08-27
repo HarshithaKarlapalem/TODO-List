@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    display: flex;
+    flex-direction: column;   
+    font-style: bold; 
+    align-items: center;
+}
+.list-item{
+    background-color: rgba(81, 17, 140, 0.234);
+}
+.heading{
+    color: rgb(32, 4, 33);
+    margin-top: 20px;
+    align-self: center;
+}
+.delete-btn{
+    border: none;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-weight: bold;
+    font-size: large;
+    align-self: flex-end;
+    background: rgba(81, 17, 140, 0.02);
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;  
+    flex-direction: column;
+    border-radius: 20%;
+    color:rgb(32, 4, 33);
+    background-image: linear-gradient(rgba(46,3, 56, 0.2),rgb(56, 49, 57));
+}
+span{
+    padding-right: 20px;
+    color: rgb(32, 4, 33);
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li{
+    list-style: none;
+    line-height: 2;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(46, 3, 56);
+    border-radius: 10%;
+}
+.greet{
+    font-size: 2rem;
+    margin: 0;    
+    color:rgb(32, 4, 33);
+    
+}
+.list-input{
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+input {
+    background-color: rgba(46, 3, 56, 0);
+  }
+input.name{
+    border: none;
+    font-size: 2rem;
+}
+.input{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(46, 3, 56);
+    border-radius: 5px;
+    width: 300px;
+    font-size: 1rem;
+}
+.date{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(46, 3, 56);
+    border-radius: 5px;
+    font-size: 1rem;
+    color: rgb(32, 4, 33);
+}
+.priority{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(46, 3, 56);
+    border-radius: 5px;
+    font-size: 1rem;
+    color: rgb(32, 4, 33);
+    background-color: rgba(48, 40, 56, 0.139);
+}
+.add{
+    border-radius: 50%;
+    background-color: indigo;
+    color: white;
+    align-self: center;
+    font-weight: 1000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 50px;
+    width: 50px;
+}
