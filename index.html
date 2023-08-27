@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO-List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading"><h1><img src="download.png" style="height:35px; width: 30px;">TODO - List</h1></div>
+    <div class="container">
+        <div class="greet"><h3>Hey, <input class="name" type="text" name="name" placeholder="Name"></h3></div>
+        <div class="list-input">
+            <label for="list">Enter Task:</label>
+            <input class="input" type="text" name="list" placeholder="Add a new task">
+            <input class="date" type="date" name="date" placeholder="Date">
+            <div class="prior">
+                <label for="priority">Set priority:</label>
+                <select class="priority" name="priority" id="priority">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+            </div>            
+        </div>
+        <button class="add-btn add" type="submit">ADD</button>        
+    </div>
+    <div id="tasks"></div>
+    <script src="script.js"></script>
+</body>
+</html>
